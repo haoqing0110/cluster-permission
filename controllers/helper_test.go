@@ -24,7 +24,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"
-	cpv1alpha1 "open-cluster-management.io/cluster-permission/api/v1alpha1"
+	cpv1alpha1 "open-cluster-management.io/cluster-permission/apis/v1alpha1"
 )
 
 func Test_generateManifestWorkName(t *testing.T) {
