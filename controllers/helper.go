@@ -21,7 +21,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	workv1 "open-cluster-management.io/api/work/v1"
-	cpv1alpha1 "open-cluster-management.io/cluster-permission/api/v1alpha1"
+	cpv1alpha1 "open-cluster-management.io/cluster-permission/apis/v1alpha1"
 )
 
 // generateManifestWorkName returns the ManifestWork name for a given ClusterPermission.
